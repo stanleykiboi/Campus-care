@@ -56,3 +56,11 @@ button{
 button:hover{
     background-color: rgb(42, 121, 148);
 }
+
+/* home page body */
+#homepage{
+    background: white;
+    margin-bottom: 100px;
+    align-items: flex-start;
+    justify-content: right;
+}

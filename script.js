@@ -5,16 +5,18 @@ loginform.addEventListener("submit", function(event)
     const admin = document.getElementById("admin").value;
     const password = document.getElementById("passwword").value;
 
+    const message = document.getElementById("message");
+
     if (username === "" || admin === "" || password === "")
     {
-        MessageChannel.textContent = "Plaese fill in all fields.";
-        MessageEvent.style.color = "red";
+        message.textContent = "Plaese fill in all fields.";
+        message.style.color = "red";
     }
 
     else
     {
-        MessageEvent.textContent = "Login form submitted successfully";
-        MessageEvent.style.color = "green";
+        message.textContent = "Login form submitted successfully!";
+        message.style.color = "green";
     }
 }
 )
