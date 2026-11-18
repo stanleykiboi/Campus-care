@@ -1,4 +1,4 @@
-const loginform = document.getElementById("loginform");
+const loginform = document.getElementById("loginForm");
 loginform.addEventListener("submit", function(event)
 {
     const username = document.getElementById("username").value;
