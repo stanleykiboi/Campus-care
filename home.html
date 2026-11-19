@@ -1,82 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home page</title>
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>bridge hotel</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body id="homepage">
 
-    <header>
-        <div class="logo">+ Campus care</div>
-    
-    <fieldset id="nav">
-        <a href="home.html">Home</a><br>
-        <a href="about.html">About</a><br>
-        <a href="contact.html">Contact us</a><br>
-    </fieldset>
+<body id="homebody">
+    <div>
+    <div id="links">
+        <a href="home.html" class="links">Home</a>
+        <a href="about.html" class="links">About</a>
+        <a href="contact.html" class="links">Contuct Us</a>
+    </div>
 
-    </header>
-
-<!-- hompage -->
-    <section class="hero">
-        <div class="hero-content">
-
-            <h1>
-                Welcome to campus Care.
-            </h1>
-
-            <h2>Your campus, your voice, your care.</h2>
-
-            <p>Campus Care is a student platform that allows students to submit complaints, report problems and receive feedback from the school administration.</p>
-
-            <a href="#submit" class="btn">Submit a complaint</a>
+    <!-- main-header -->
+<main>
+        <div id="main-head">
+            <header id="main-header">Campus care</header>
+            <h1 id="head1">Welcome to campus care</h1>
+            <h1 id="head2">We are here to support you.😊😊</h1>
         </div>
-    </section>
+</main>
+    <br>
+    <br>
 
-    <!-- services -->
-    <section class="services">
-        <h2>Our services</h2>
-        <div class="service-container">
-            <div class="service-box">
-                <h3>Submit complaints</h3>
-                <p>
-                    Students can submit complaints about problems affecting them on campus.
-                </p>
-            </div>
 
-            <div class="service-box">
-                <h3>Receive Feedback</h3>
-                <p>
-                    Students can receive updates and responces from the administration.
-                </p>
-            </div>
-        </div>
-    </section>
+    <!-- availlable food -->
+    <h1 id="available-food">Active Cases Overview</h1>
+    <br>
+    <br>
 
-    <!-- complaints -->
+
     <section>
-        <label for="complaint Category"></label>
+        <!-- snack foods -->
+        <h3 id="snacks"></h3>
+        <ul id="snack">
+            <div class="snacks">
+                
+                <h4>My Reports</h4>
+                <p>report ID: CC-101</p>
+                <p>Subject: Campus Lightning</p>
+            </div>
 
-        <select name="complaint" id="category">
-            <option value="complaint">Select Category</option>
-            <option>Accommodation</option>
-            <option>Security</option>
-            <option>Classrooms</option>
-            <option>Internet problems</option>
-            <option>Cleanliness</option>
-            <option>Other</option>
-        </select>
+            <div class="snacks">
+                
+                <h4>Recent Updates</h4>
+                <p>Case CC-092 resolved.</p>
+                <p>Resource section updated with mental health support info.</p>
+            </div>
 
-        <label for="Complaint Title"></label>
-        <input type="text" id="title" placeholder="Enter complaint title">
-
-        <label for="Describe Your complaint"></label>
-        <textarea name="describe" id="description" placeholder="Explain your problem..."></textarea>
-
-        <button type="submit">submit complaint</button>
+            <div class="snacks">
+            
+                <h2>Need immediate help?</h2>
+                <p>Campus security</p>
+                <a href="#">0738627000</a>
+            </div>
+        </ul>
     </section>
+    </div>
+
+
+
     <script src="script.js"></script>
 </body>
+
 </html>
