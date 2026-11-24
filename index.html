@@ -3,37 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login page</title>
+    <title>Log in | Campus Care</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
-<body>
-    <fieldset id="loginform">
-        <h1>Sign in</h1>
-
-        <!-- username -->
-        <label for="username">Username</label>
-        <input type="text" placeholder=" Enter your username" id="username">
-        <br> <br>
-
-        <!-- admission number -->
-        <label for="admin no.">Admin no.</label>
-        <input type="number" placeholder="Enter your admission number" id="admin">
-        <br> <br>
-
-        <!-- password -->
-        <label for="password">Password</label>
-        <input type="password" placeholder="Enter your password" id="password">
-        <br> <br>
-
-        <!-- parragraph fo messege -->
-        <p id="message"></p>
-
-        <!-- button for login -->
-        <a href="home.html"><button type="submit">Login</button></a>
-    </fieldset>
-
-
+<body class="auth-page">
+    <main class="auth-shell">
+        <aside class="auth-aside">
+            <a class="brand" href="home.html"><span class="brand-mark">&#9825;</span>Campus Care</a>
+            <div>
+                <h2>Your campus support, in one place.</h2>
+                <p>Report concerns, track updates, and connect with the right support team.</p>
+            </div>
+        </aside>
+        <section class="auth-form-wrap">
+            <h1>Welcome back</h1>
+            <p class="subtitle">Sign in to continue to Campus Care</p>
+            <form action="home.html">
+                <div class="field">
+                    <label for="username">Username or email</label>
+                    <input id="username" type="text" placeholder="Enter your username or email" required>
+                </div>
+                <div class="field">
+                    <label for="password">Password</label>
+                    <input id="password" type="password" placeholder="Enter your password" required>
+                </div>
+                <p class="form-message" aria-live="polite"></p>
+                <button class="btn btn-primary btn-wide" type="submit">Log in</button>
+            </form>
+            <p class="auth-switch">New to Campus Care? <a href="register.html">Create an account</a></p>
+        </section>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>

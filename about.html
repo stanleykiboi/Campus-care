@@ -3,30 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+    <title>About | Campus Care</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-<div id="links">
-    <a href="home.html" class="links">Home</a>
-    <a href="about.html" class="links">About</a>
-    <a href="contact.html" class="links">Contuct Us</a>
-</div>
-    
-    <div>
+    <header class="site-header">
+        <a class="brand" href="home.html"><span class="brand-mark">&#9825;</span>Campus Care</a>
+        <nav class="nav-links" aria-label="Primary navigation">
+            <a href="home.html">Home</a><a class="active" href="about.html">About</a>
+            <a href="services.html">Services</a><a href="contact.html">Contact</a>
+        </nav>
+        <div class="nav-actions"><a class="btn" href="index.html">Log in</a><a class="btn btn-primary" href="register.html">Register</a></div>
+        <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+    </header>
 
-    <h2>About Campus Care</h2>
-    <p>
-        Campus Care is a student complaint management
-        system designed to improve communication between
-        students and the school administration.
-        
-        Our goal is to provide students with an easy way
-        to report problems, submit complaints and receive
-        feedback on the issues they raise.
-    </p>
-    </div>
-    </div>
+    <main>
+        <section class="page-hero">
+            <span class="eyebrow">About us</span>
+            <h1>Built around student wellbeing</h1>
+            <p>Campus Care connects students with timely, respectful, and practical support.</p>
+        </section>
+        <section class="content-section split">
+            <div>
+                <span class="eyebrow">Our purpose</span>
+                <h2>Making it easier to be heard</h2>
+                <p>Campus life should be a place to learn and grow. When challenges arise, students deserve a clear path to help. Campus Care provides one accessible place to report concerns, find resources, and follow progress.</p>
+                <p>We work toward a safer and more caring campus through transparency, accountability, and collaboration.</p>
+            </div>
+            <div class="info-panel">
+                <h2>What guides us</h2>
+                <div class="value-list">
+                    <div class="value-item"><span>&#10003;</span><div><strong>Student focused</strong><br><small>Every feature starts with student needs.</small></div></div>
+                    <div class="value-item"><span>&#10003;</span><div><strong>Respectful support</strong><br><small>Privacy and dignity come first.</small></div></div>
+                    <div class="value-item"><span>&#10003;</span><div><strong>Clear accountability</strong><br><small>Every report has a visible path forward.</small></div></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">Campus Care &copy; 2026. Built for a safer, more supportive campus.</footer>
+    <script src="script.js"></script>
 </body>
 </html>

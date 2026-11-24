@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration | Campus Care</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="auth-page">
+    <main class="auth-shell">
+        <aside class="auth-aside">
+            <a class="brand" href="home.html"><span class="brand-mark">&#9825;</span>Campus Care</a>
+            <div>
+                <h2>Get the support you deserve.</h2>
+                <p>Create an account to submit reports and follow every update from start to resolution.</p>
+            </div>
+        </aside>
+        <section class="auth-form-wrap">
+            <h1>Create account</h1>
+            <p class="subtitle">Join your campus support community</p>
+            <form action="index.html">
+                <div class="form-grid">
+                    <div class="field">
+                        <label for="first-name">First name</label>
+                        <input id="first-name" type="text" placeholder="First name" required>
+                    </div>
+                    <div class="field">
+                        <label for="last-name">Last name</label>
+                        <input id="last-name" type="text" placeholder="Last name" required>
+                    </div>
+                    <div class="field full">
+                        <label for="email">Email address</label>
+                        <input id="email" type="email" placeholder="you@campus.edu" required>
+                    </div>
+                    <div class="field">
+                        <label for="admission">Admission number</label>
+                        <input id="admission" type="text" placeholder="Admission no." required>
+                    </div>
+                    <div class="field">
+                        <label for="register-password">Password</label>
+                        <input id="register-password" type="password" placeholder="Create password" required>
+                    </div>
+                </div>
+                <p class="form-message" aria-live="polite"></p>
+                <button class="btn btn-primary btn-wide" type="submit">Create account</button>
+            </form>
+            <p class="auth-switch">Already have an account? <a href="index.html">Log in</a></p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

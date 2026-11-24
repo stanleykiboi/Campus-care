@@ -1,67 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>bridge hotel</title>
+    <title>Home | Campus Care</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
-<body id="homebody">
-    <div>
-    
-
-    <!-- main-header -->
-<main>
-        <div id="main-head">
-            <header id="main-header">Campus care</header>
-            <h1 id="head1">Welcome to campus care</h1>
-            <h1 id="head2">We are here to support you.😊😊</h1>
+<body>
+    <header class="site-header">
+        <a class="brand" href="home.html"><span class="brand-mark">&#9825;</span>Campus Care</a>
+        <nav class="nav-links" aria-label="Primary navigation">
+            <a class="active" href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <div class="nav-actions">
+            <a class="btn" href="index.html">Log in</a>
+            <a class="btn btn-primary" href="register.html">Register</a>
         </div>
-</main>
-    <br>
-    <br>
+        <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+    </header>
 
-
-    <!-- availlable food -->
-    <h1 id="available-food">Active Cases Overview</h1>
-    <br>
-    <br>
-
-
-    <section>
-        <!-- snack foods -->
-        <h3 id="snacks"></h3>
-        <ul id="snack">
-            <div class="snacks">
-                
-                <h4>My Reports</h4>
-                <p>report ID: CC-101</p>
-                <p>Subject: Campus Lightning</p>
+    <main>
+        <section class="hero">
+            <div class="hero-copy">
+                <span class="eyebrow">Student support platform</span>
+                <h1>Help when you need it, support for everyone.</h1>
+                <p>Campus Care makes it easy to share concerns, find student resources, and follow your support cases from submission to resolution.</p>
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="contact.html">Submit a report</a>
+                    <a class="btn" href="services.html">Explore services</a>
+                </div>
             </div>
-
-            <div class="snacks">
-                
-                <h4>Recent Updates</h4>
-                <p>Case CC-092 resolved.</p>
-                <p>Resource section updated with mental health support info.</p>
+            <div class="hero-art" aria-label="Student support illustration">
+                <div class="hero-circle"></div>
+                <div class="student-card">
+                    <div class="student-avatar">&#9822;</div>
+                    <strong>Campus Support</strong>
+                    <span>Here for every student</span>
+                </div>
+                <div class="float-chip chip-one">&#10003; Case resolved</div>
+                <div class="float-chip chip-two">&#128172; 24/7 guidance</div>
             </div>
+        </section>
 
-            <div class="snacks">
-            
-                <h2>Need immediate help?</h2>
-                <p>Campus security</p>
-                <a href="#">0738627000</a>
+        <section class="stats" aria-label="Campus Care statistics">
+            <div class="stat"><strong>1,200+</strong><span>Students supported</span></div>
+            <div class="stat"><strong>92%</strong><span>Cases resolved</span></div>
+            <div class="stat"><strong>24 hrs</strong><span>Average response</span></div>
+        </section>
+
+        <section class="section">
+            <div class="section-heading">
+                <span class="eyebrow">How we help</span>
+                <h2>Simple support, every step</h2>
+                <p>Clear tools designed to help you get the right help without confusion or delay.</p>
             </div>
-        </ul>
-        <a href="about.html"><button>About page -></button></a>
-    </section>
-    </div>
-
-
-
+            <div class="card-grid">
+                <article class="card">
+                    <div class="card-icon">&#9998;</div>
+                    <h3>Submit a report</h3>
+                    <p>Tell us what happened and choose the support category that fits your concern.</p>
+                </article>
+                <article class="card">
+                    <div class="card-icon">&#9716;</div>
+                    <h3>Track progress</h3>
+                    <p>Follow your case status and receive clear updates as the support team responds.</p>
+                </article>
+                <article class="card">
+                    <div class="card-icon">&#10003;</div>
+                    <h3>Find a solution</h3>
+                    <p>Get practical guidance and close the loop with a resolution you can trust.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">Campus Care &copy; 2026. Built for a safer, more supportive campus.</footer>
     <script src="script.js"></script>
 </body>
-
 </html>
